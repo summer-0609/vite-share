@@ -1,0 +1,24 @@
+{
+  "name": "simple-vite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vue/compiler-dom": "^3.1.1",
+    "@vue/compiler-sfc": "^3.1.1",
+    "connect": "^3.7.0",
+    "es-module-lexer": "^0.6.0",
+    "esbuild": "^0.12.8",
+    "magic-string": "^0.25.7"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "vue": "^3.1.1"
+  }
+}

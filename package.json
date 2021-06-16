@@ -1,0 +1,16 @@
+{
+  "name": "vite-share",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "import:dev": "http-server ./module/import",
+    "babel": "babel-node --inspect -p --presets @babel/preset-env -- ./module/babel/main.js  "
+  },
+  "dependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/node": "^7.14.2",
+    "@babel/preset-env": "^7.14.2",
+    "http-server": "^0.12.3"
+  }
+}
